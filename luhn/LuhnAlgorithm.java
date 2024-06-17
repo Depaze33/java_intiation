@@ -8,6 +8,11 @@ public class LuhnAlgorithm {
         System.out.println("Le numéro de carte " + cardNumber + " est " + (isValid ? "valide" : "invalide"));
     }
 
+    /**
+     * 
+     * @param cardNumber numero de carte a verifier
+     * @return
+     */
     public static boolean validateLuhn(String cardNumber) {
         int sum = 0;
         boolean alternate = false;
@@ -27,4 +32,3 @@ public class LuhnAlgorithm {
         return (sum % 10 == 0);
     }
 }
-
