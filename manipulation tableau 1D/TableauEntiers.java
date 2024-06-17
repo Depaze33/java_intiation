@@ -12,6 +12,7 @@ public class TableauEntiers {
         // Création du tableau pour stocker les valeurs
         int[] valeurs = new int[nombreDeValeurs];
 
+
         // Saisie des valeurs par l'utilisateur
         for (int i = 0; i < nombreDeValeurs; i++) {
             System.out.print("Entrez l'entier " + (i + 1) + " : ");

@@ -11,3 +11,4 @@ double moyenne=  total/array.length;
 System.out.println("La moyenne est " + moyenne);
 }
 }
+
