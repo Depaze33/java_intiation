@@ -1,9 +1,9 @@
 public class bubble {
     public static void main(String[] args) {
-        int[] array = { 10, 70, 4, 1, 50, 85 };
-        System.out.println("Le tableau avant l'algorithme de tri a bulle" + array);
+        int[] array = { 10, 70, 4, 1, 50, 85, 45, 70, 50, 4, 9, 6};
+        displayArray(array);
         triABulle(array);
-        displayResult(array);
+        displayArray(array);
     }
 
     public static void triABulle(int[] tableau) {
@@ -19,9 +19,10 @@ public class bubble {
             }
         }
     }
-    public static void displayResult(int[] tableau) {
+    public static void displayArray(int[] tableau) {
+        System.out.println();
         for (int j = 0; j < tableau.length; j++) {
-            System.out.println(" Le tableau après l'algorithme de tri a bulle" + tableau);
+            System.out.print(tableau[j] + " "  );
         }
     }
 }
